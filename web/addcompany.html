@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Add Company</title>
+        <style type ="text/css">
+            #div1 {background-color:greenyellow;width:33cm;height:40px;}
+            #p1 {font-size:30px;font-family:arial;text-align:center;font-style:italic;}
+            body{background-color:lightgreen;}
+        </style>
+        <link rel="icon" href="icon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="div1">
+            <p id="p1">Adding a Company</p>
+        </div><br>
+    <center>
+        <h2><b>Company Details</b></h2>
+        <form action="addCompanyservlet1" >
+            <fieldset>
+                <legend>Faculty Details:</legend>
+                Company Name        : <input type="text" name="cname"><br><br>
+                Company  ID          : <input type="text" name="cid"><br><br>
+                Category             : <select name="ccategory">
+                    <option value="Audit Firm">Audit Firm</option>
+                    <option value="Hospital">Hospitals</option>
+                    <option value="Softare Company">Software Company</option>
+                    <option value="Textile Shop">Textile Shop</option>
+                    <option value=""></option>
+                </select>
+                <br><br>
+                Type                 : <input type="radio" name="ctype" value="Public Sector"> Public Sector
+                <input type="radio" name="ctype" value="Private Sector">Private Sector
+            </fieldset><br><br><br>
+            <fieldset>
+                <legend>Credentials Details:
+                </legend>
+                User Id             : <input type="text" name="cid"><br><br>
+                Password            : <input type="text" name="cpassword">
+            </fieldset>
+            <br><br>
+            <input type="submit" value="Add Company">
+            </center>
+        </form>
+    </body>
+</html>

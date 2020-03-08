@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Adding Employee</title>
+        <style type ="text/css">
+                #div1 {background-color:brown;width:33cm;height:40px;}
+                #p1 {font-size:30px;text-align:center;font-style:italic;;font-family:elephant;}
+                body{background-color:lightyellow;}
+        </style>
+        <link rel="icon" href="icon.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="div1">
+                <p id="p1">Adding a Employee</p>
+            </div><br><br><br>
+    <center>
+        <h2>Employee Registration</h2>
+        <form action="addemployeeservlet" >
+            <fieldset>
+                <legend>Student Attendance:</legend><br>
+                 Company ID            : <input type="text" name="cid" required><br><br>
+                 Employee Name         : <input type="text" name="ename" required><br><br>
+                 Employee  ID          : <input type="text" name="eid" required><br><br>
+                 Employee Designation  : <select name="edesignation" required>
+                    <option value="Senior Manager">Senior Manager</option>
+                    <option value=Manager">Manager</option>
+                    <option value="Team Leader">Team Leader</option>
+                    <option value="Textile Shop">Sales Manager</option>
+                    <option value="Sales Manager"></option>
+                </select>
+                <br><br>
+                Last Company Worked: <input type="text" name="lcompany" required><br><br>
+                <input type="submit" value="Register Employee"><br><br>
+            </fieldset><br><br><br>
+            </center>
+             </form>
+    </body>
+</html>

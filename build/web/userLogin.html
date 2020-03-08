@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <style type ="text/css">
+                #div1 {background-color: pink;width:33cm;height:40px;}
+                #p1 {font-size:30px;font-family:arial;text-align:center;font-style:italic;}
+                body{background-color:lightsteelblue;}
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+            <div id="div1">
+                <p id="p1">Kaar Feedback Application</p>
+            </div><br><br><br>
+               <center>
+            <h2>User Login</h2>     
+            <form action="usercheckServlet" >
+            <fieldset>
+                <legend>Login Credentials:</legend>
+                <br><br>
+                User Id: <input tye="text" name="uid" placeholder="userID"required><br><br>
+                Password: <input tye="text" name="password" placeholder="Password" required><br><br>
+                <input type="submit" value="Log In">
+                <br><br>
+            </fieldset>
+            </center>
+             </form>
+        </body>
+</html>
